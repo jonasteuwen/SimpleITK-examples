@@ -21,7 +21,7 @@ import SimpleITK as sitk
 import os
 from glob import glob
 import dicom
-from dicom import read_dicom_series
+from dicom_wrapper import read_dicom_series
 from resample_isotropically import resample_sitk_image
 
 import logging

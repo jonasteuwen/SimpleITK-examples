@@ -1,5 +1,5 @@
 # encoding: utf-8
-"""A an example to read in a image file, and resample the image to a new grid.
+"""An example to read in a image file, and resample the image to a new grid.
 """
 
 import SimpleITK as sitk
@@ -21,7 +21,6 @@ _SITK_INTERPOLATOR_DICT = {
     'welch_windowed_sinc': sitk.sitkWelchWindowedSinc,
     'lanczos_windowed_sinc': sitk.sitkLanczosWindowedSinc
 }
-
 
 
 def resample_sitk_image(sitk_image, spacing=None, interpolator=None,
