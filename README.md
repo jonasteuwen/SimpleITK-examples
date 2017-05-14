@@ -14,3 +14,4 @@ Currently we have the Python examples:
 
 Jupyter notebooks:
  - *ReadImage.ipynb*: An example on how to read an image using SimpleITK.
+ - *ReadDicomBrain.ipynb*: An example how to read a DICOM series using SimpleITK.
