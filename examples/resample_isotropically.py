@@ -107,7 +107,7 @@ def main(REGEX_TO_IMAGES, WRITE_TO):
         base_name = 'resampled_' + os.path.basename(image)
         write_to = os.path.join(WRITE_TO, base_name)
         tqdm.write('Writing resampled image to {}'.format(write_to))
-        sitk.WriteImage(resampled_image, write_to)
+        sitk.WriteImage(resampled_image, write_to, True)  # True = compress image.
 
 
 if __name__ == '__main__':
